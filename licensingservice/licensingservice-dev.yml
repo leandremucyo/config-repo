@@ -1,4 +1,4 @@
-#spring.jpa.database: "apps"
+spring.jpa.database: "mysql"
 spring.datasource.platform:  "mysql"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "com.mysql.jdbc.Driver"
