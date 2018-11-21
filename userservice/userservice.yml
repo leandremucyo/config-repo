@@ -7,5 +7,5 @@ spring.datasource.password: "{cipher}843805913b7d67d836521d2f536638c660ddb0b3726
 #spring.datasource.maximum-pool-size: 15
 #spring.datasource.validation-query: "SELECT 1"
 #spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL8Dialect"
-message: "Message From Default userservice.yml"
+message: "I am the default"
 secret: '{cipher}b0f5579d23b0aafa82011aa6793ac91f7e1f80697b211d8edfe69dba76b5f3b7'
