@@ -4,3 +4,4 @@ spring.datasource.username: '{cipher}21d2dcf0d29103ab10c115a1b886ff35a5fc30e5043
 spring.datasource.password: '{cipher}4d3e31c7699c123e2dcd4fe1296389be2f6f32316c91f45a7a0de6b62c8c29c6'
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL8Dialect"
 spring.datasource.driver-class-name: com.mysql.jdbc.Driver
+spring.cloud.refresh.refreshable: none
