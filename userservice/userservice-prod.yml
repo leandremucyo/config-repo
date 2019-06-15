@@ -1,8 +1,7 @@
-message: "userservice prod"
-spring.database.driver-class-name=com.mysql.jdbc.Driver
-spring.datasource.url: "jdbc:mysql://host.docker.internal:3306/apps?useSSL=false"
+message: userservice default
+spring.datasource.url: jdbc:mysql://host.docker.internal:3306/apps?useSSL=false&allowPublicKeyRetrieval=true
 spring.datasource.username: "{cipher}3cc83e4b01eb51646602a2bc11e68f221a0d8a16fabf3c349f345680c827260f"
-spring.datasource.password: "{cipher}843805913b7d67d836521d2f536638c660ddb0b3726
-#spring.datasource.maximum-pool-size: 15
-#spring.datasource.validation-query: "SELECT 1"
-#spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL8Dialect"
+spring.datasource.password: "{cipher}843805913b7d67d836521d2f536638c660ddb0b3726"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL8Dialect"
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.datasource.maximum-pool-size: 15
